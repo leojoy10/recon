@@ -98,14 +98,14 @@ python3 ~/tools/eyewitness/EyeWitness-20211018.1/Python/EyeWitness.py -f ips-onl
 
 #2-------------------------------------------------------------
 #subdomain checker (subdomain_status-code.txt) :
-python3 ~/tools/scripts/subdomain_checker.py live-subdomain.txt |sort -u >subdomain_status-code.txt
+python3 ~/scripts/subdomain_status-code.py live-subdomain.txt |sort -u | tee subdomain_status-code.txt
 
 
 
 
 
 #remove files
-#rm amass.txt findomain.txt crtsh.txt assetfinder.txt subfinder.txt sublist3r.txt httprobe.txt httpx.txt geckodriver.log
+#rm amass.txt findomain.txt crtsh.txt assetfinder.txt subfinder.txt sublist3r.txt httprobe.txt httpx.txt geckodriver.log massdns.out
 
 }
 
