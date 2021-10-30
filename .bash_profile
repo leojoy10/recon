@@ -8,6 +8,6 @@ export PATH=$PATH:/root/tools/aquatone
 export PATH=$PATH:/root/tools/findomain
 
 #gf
-source $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.bash
+source $HOME/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.bash
 
 
