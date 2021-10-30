@@ -66,11 +66,11 @@ select choice in "${choices[@]}"; do
 
 					echo "Installing Golang"
 					echo ""
-                                                                                echo "Make sure whether you Input latest version of  Golang binary release link"
-             					curl -OL https://golang.org/dl/go1.17.2.linux-amd64.tar.gz
-                                                                                echo ""
-                                                                                echo "removing a previous installation if present at /usr/local/go and Extract go1.17.2.linux-amd64.tar.gz into /usr/local, you will find go folder which is Go tree in /usr/local/go"
-                                                                                rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
+                                        echo "Make sure whether you Input latest version of  Golang binary release link"
+             				curl -OL https://golang.org/dl/go1.17.2.linux-amd64.tar.gz
+                                        echo ""
+					echo "removing a previous installation if present at /usr/local/go and Extract go1.17.2.linux-amd64.tar.gz into /usr/local, you will find go folder which is Go tree in /usr/local/go"
+                                        rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
 					
 					echo "removing Golang binary"
 					rm -r go1.17.2.linux-amd64.tar.gz
