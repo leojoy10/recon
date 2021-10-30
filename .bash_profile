@@ -1,7 +1,5 @@
 #go
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 
 #aquatone
 export PATH=$PATH:/root/tools/aquatone
