@@ -105,7 +105,7 @@ python3 ~/scripts/subdomain_status-code.py live-subdomain.txt |sort -u | tee sub
 
 
 #remove files
-#rm amass.txt findomain.txt crtsh.txt assetfinder.txt subfinder.txt sublist3r.txt httprobe.txt httpx.txt geckodriver.log massdns.out
+rm amass.txt findomain.txt crtsh.txt assetfinder.txt subfinder.txt sublist3r.txt httprobe.txt httpx.txt geckodriver.log massdns.out
 
 }
 
